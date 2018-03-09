@@ -70,6 +70,9 @@ body {
 .fifty-percent-plus-font {
   font-size: 150%
 }
+.top-baby-buffer {
+  margin-top: 30px;
+}
 
 @keyframes slidein {
   from {
@@ -81,6 +84,12 @@ body {
     margin-left: 0%;
     width: 100%;
   }
+}
+
+.center-image {
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .img-byu {
