@@ -1,0 +1,160 @@
+body {
+	font-family: "Avenir";
+	color: #484848;
+}
+.img-showcase {
+	width: 100%;
+}
+.img-border {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 50px;
+	border-color: #AAAAAA;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+.fifth-width {
+  width: 20%;
+}
+.third-width {
+  width: 33%;
+}
+.half-width {
+	width: 50%;
+}
+.two-third-width {
+  width: 66%;
+}
+.full-width {
+  width: 100%;
+}
+.img-round {
+	border-radius: 50%;
+}
+.mega-font {
+	font-size: 2em;
+}
+.slide-in-1 {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+.slide-in-1-5 {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+.span-mega-emphasis {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.slide-in-2 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+.arrow {
+	color: #484848;
+}
+.title-font {
+  font-size: 4em;
+  font-weight: bold;
+}
+.double-font {
+  font-size: 200%
+}
+.fifty-percent-plus-font {
+  font-size: 150%
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.img-byu {
+	width: 200px;
+}
+
+.img-stanford {
+	height: 200px;
+}
+.img-plist {
+	height: 85%;
+}
+.logo {
+  background-color: #484848;
+  color: #FFF;
+  font-size: 1.2em;
+  padding: 6px;
+}
+.top-buffer {
+  margin-top: 60px;
+}
+.bottom-buffer {
+  margin-bottom: 60px;
+}
+.transition-third-sec {
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  /* ...and now for the proper property */
+  transition:.3s;
+}
+.portfolio-link {
+  height: 60px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #484848;
+}
+.center-vertical {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-link:hover {
+  background-color: #484848;
+  color: #FFF;
+  text-decoration: none;
+}
+.nav-tag-line {
+  margin-left: 20px;
+  font-size: 0.8em;
+}
+.li-additional {
+  margin-left: 15px;
+  font-size: 0.8em;
+}
+.portfolio-link-title {
+  margin-left: 10px;
+}
+a.no-decor {
+  text-decoration: none;
+}
+.elevated {
+  border-color: red;
+  border-width: 10px;
+}
+.lawstats-font {
+  font-family: 'Ubuntu Mono', monospace;
+}
+.next-to-icon {
+  margin-left: 10px;
+}
+.unlink {
+  text-decoration: none;
+  color: #484848;
+}
